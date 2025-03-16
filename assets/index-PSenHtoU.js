@@ -259,13 +259,14 @@ class Icon extends Component {
   }
   template() {
     const { size, iconName, classList, styles, id } = this.props;
+    const baseURL = window.location.origin.includes("github.io") ? "/javascript-lunch" : "";
     return `
       <img
         id="${id}"
         width="${size}"
         height="${size}"
         alt="${iconName}"
-        src="./public/${iconName}.png"
+        src="${baseURL}/${iconName}.png"
         class=" ${classList.join(" ")}cursor-pointer" 
         style="${styleStr(styles)}"
       />
