@@ -356,8 +356,8 @@ body {
 }
 
 @font-face {
-  font-family: "Pretendard";
-  src: url("/font/Pretendard-Regular.woff2") format("woff2");
+  font-family: "PretenDard";
+  src: url("/javascript-lunch/font/PretendardVariable.woff2") format("woff2");
 }
 
 * {
